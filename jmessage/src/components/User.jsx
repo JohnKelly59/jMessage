@@ -56,10 +56,6 @@ function CreateUser(props) {
     });
   };
 
-  const handleClick = () => {
-    window.location.reload(false);
-  };
-
   return (
     <div className="body">
       <main className="form-signin">
@@ -84,7 +80,6 @@ function CreateUser(props) {
               className="form-control"
               id="box2"
               name="first"
-              type="text"
               onChange={handleChange}
               value={box.first}
               placeholder="First Name"
@@ -98,7 +93,6 @@ function CreateUser(props) {
               className="form-control"
               id="box3"
               name="last"
-              type="text"
               onChange={handleChange}
               value={box.last}
               placeholder="Last Name"
@@ -112,7 +106,6 @@ function CreateUser(props) {
               className="form-control"
               id="box4"
               name="secret"
-              type="password"
               onChange={handleChange}
               value={box.secret}
               placeholder="Password"
