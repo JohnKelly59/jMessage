@@ -1,0 +1,104 @@
+.ce-primary-button {
+  background-color: #00873e !important ;
+}
+.ce-message-bubble {
+  background-color: #00873e !important ;
+}
+
+#ce-send-message-button {
+  background-color: #00873e !important ;
+}
+
+.ce-chat-list {
+  color: #fff !important;
+  background-color: #bb2528 !important;
+}
+
+.ce-chats-container {
+  color: #fff !important;
+  background-color: #bb2528 !important;
+}
+
+.ce-chat-form-container {
+  color: #fff !important;
+  background-color: #bb2528 !important;
+}
+
+.ce-chat-title-container {
+  color: #00873e !important;
+}
+
+.ce-settings {
+  background-color: #bb2528 !important;
+}
+
+.ce-section-title-container {
+  background-color: #bb2528 !important;
+  color: #fff !important;
+}
+
+#ce-options-drop-down {
+  background-color: #bb2528 !important;
+  color: #fff !important;
+}
+
+#ce-add-username-input {
+  color: #fff !important;
+  background-color: #00873e !important;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+.ce-input {
+  background-color: #00873e !important;
+  color: #fff !important;
+}
+
+.anticon {
+  color: #fff !important;
+}
+
+#ce-delete-chat-button {
+  color: #fff !important;
+  border-color: #fff !important;
+}
+
+.ql-bold:hover {
+  background-color: #00873e !important;
+  border-radius: 50%;
+}
+
+.ql-italic:hover {
+  background-color: #00873e !important;
+  border-radius: 50%;
+}
+
+.ql-underline:hover {
+  background-color: #00873e !important;
+  border-radius: 50%;
+}
+
+.ql-code:hover {
+  background-color: #00873e !important;
+  border-radius: 50%;
+}
+
+.ql-link:hover {
+  background-color: #00873e !important;
+  border-radius: 50%;
+}
+
+.ql-strike:hover {
+  background-color: #00873e !important;
+  border-radius: 50%;
+}
+
+.ce-chat-card {
+  background-color: #00873e !important;
+}
+
+.ce-chat-subtitle-text {
+  color: #fff !important;
+}
