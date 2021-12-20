@@ -15,6 +15,12 @@
     "body-parser": "^1.19.1",
     "concurrently": "^6.5.1",
     "express": "^4.17.1",
+    "axios": "^0.24.0",
+    "react": "^17.0.2",
+    "react-chat-engine": "^1.11.22",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^5.0.0",
+    "web-vitals": "^1.1.2",
     "https": "^1.0.0"
   }
 }
