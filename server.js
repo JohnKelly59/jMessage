@@ -1,5 +1,6 @@
 const express = require("express");
 const app = express();
+const path = require("path");
 const bodyParser = require("body-parser");
 var https = require("https");
 app.use(
@@ -8,6 +9,8 @@ app.use(
   })
 );
 app.use(bodyParser.json());
+
+app.use(express.static(path.resolve(__dirname, "./jmessage")));
 
 app.get("/", (req, res) => {
   res.send("Hello World!");
