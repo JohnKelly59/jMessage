@@ -10,7 +10,7 @@ app.use(
 );
 app.use(bodyParser.json());
 
-app.use(express.static(path.resolve(__dirname, "./jmessage")));
+//app.use(express.static(path.resolve(__dirname, "./jmessage")));
 
 app.get("/", (req, res) => {
   res.send("Hello World!");
