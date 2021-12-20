@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "concurrently \"npm run server\" \"npm run src\"",
+    "start": "concurrently \"npm run src\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "src": "npm start --prefix ./jmessage",
     "server": "node server.js"
