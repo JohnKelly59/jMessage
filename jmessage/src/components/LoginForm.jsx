@@ -25,7 +25,7 @@ const LoginForm = () => {
         localStorage.setItem("password", user.loginPassword);
         window.location.reload();
       } else {
-        setError("Username already Taken");
+        setError("Incorect Username or Password");
       }
     });
   };
